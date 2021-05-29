@@ -81,7 +81,7 @@ class VideoCore extends React.Component {
             document.exitPictureInPicture();
         }
         else
-        {
+        {   
             this.video.current.requestPictureInPicture();
         }
     }
